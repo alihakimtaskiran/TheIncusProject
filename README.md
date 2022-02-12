@@ -22,3 +22,13 @@ Continuum(entity,sample_rate=44100)---|
  - <code>amplitude</code>: Indicates amplitude of the tone
  - <code>frequency </code>:Indicates frequency of the tone
  - <code>phase </code>:Indicates phase of the tone
+
+<h5>hear(location)</h5>
+Renders which sound is heard in given location through the entire time period of the *Continuum*
+- <code>location</code>: Indicates location of the virtual microphone. It is a tuple with 3 elements
+
+<h5>play_music(path_to_file,location,start_time)</h5>
+Adds a sound file into Continuum. 
+- <code> path_to_file </code>: Indicates location of **.wav** file. **Only .wav files are accepted**
+- <code>location</code>:Indicates where will file played. It is a tuple with 3 elements
+- <code>start_time</code>: Signifies when the file is played
