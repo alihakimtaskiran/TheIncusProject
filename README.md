@@ -6,8 +6,6 @@ Continuum(entity,sample_rate=44100)---|
                                       |----monotonicSpeaker(location, time_interval, amplitude, frequency, phase=1.5*pi)
                                       |----hear(location)
                                       |----play_music(path_to_file,location,start_time)
-
-
 </pre>
 ## Docs
 <h4>Continuum(entity,sample_rate=44100)</h3>
