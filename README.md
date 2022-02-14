@@ -8,25 +8,27 @@ Continuum(entity,sample_rate=44100)---|
                                       |----play_music(path_to_file,location,start_time)
 </pre>
 ## Docs
-<h4>Continuum(entity,sample_rate=44100)</h3>
+<h3>Continuum(entity,sample_rate=44100)</h3>
    It is the simulated reality. It represents a 4D unreality and functions associated with them. 
    
  - <code>entity </code> is size of the continuum. It contains 4 elements. They stands for **(duration, x_points, y_points, z_points)**. **duration** signifies how many seconds of time period measured, and others signifies how many points exist per dimension. 
  - <code>sample_rate</code> represents how many samples per second.
- <h5> monotonicSpeaker(location, time_interval, amplitude, frequency, phase=1.5*pi)</h5>
+ <h4> monotonicSpeaker(location, time_interval, amplitude, frequency, phase=1.5*pi)</h4>
     Creates a virtual oscillator that creates monotonic audio.
- - <code>location</code>:Location of the speaker. It is a tuple with 3 elements
- - <code>time_interval</code>: Signifies which time periods tone will be played. It is a tuple with 2 elements
- - <code>amplitude</code>: Indicates amplitude of the tone
- - <code>frequency </code>:Indicates frequency of the tone
- - <code>phase </code>:Indicates phase of the tone
+ <ul> <code>location</code>:Location of the speaker. It is a tuple with 3 elements</ul>
+ <ul> <code>time_interval</code>: Signifies which time periods tone will be played. It is a tuple with 2 elements</ul>
+ <ul><code>amplitude</code>: Indicates amplitude of the tone</ul>
+ <ul> <code>frequency </code>:Indicates frequency of the tone</ul>
+ <ul> <code>phase </code>:Indicates phase of the tone</ul>
 
-<h5>hear(location)</h5>
+<h4>hear(location)</h4>
 Renders which sound is heard in given location through the entire time period of the *Continuum*
 - <code>location</code>: Indicates location of the virtual microphone. It is a tuple with 3 elements
 
-<h5>play_music(path_to_file,location,start_time)</h5>
-Adds a sound file into Continuum. 
-- <code> path_to_file </code>: Indicates location of **.wav** file. **Only .wav files are accepted**
-- <code>location</code>:Indicates where will file played. It is a tuple with 3 elements
-- <code>start_time</code>: Signifies when the file is played
+<h4>play_music(path_to_file,location,start_time)</h4>
+Adds a sound file into Continuum
+
+ <ul><code> path_to_file </code>: Indicates location of **.wav** file. **Only .wav files are accepted**.</ul>
+  <ul><code>location</code>:Indicates where will file played. It is a tuple with 3 elements.</ul>
+  <ul><code>start_time</code>: Signifies when the file is played.</ul>
+ 
