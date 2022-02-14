@@ -11,8 +11,8 @@ Continuum(entity,sample_rate=44100)---|
 <h3>Continuum(entity,sample_rate=44100)</h3>
    It is the simulated reality. It represents a 4D unreality and functions associated with them. 
    
- - <code>entity </code> is size of the continuum. It contains 4 elements. They stands for **(duration, x_points, y_points, z_points)**. **duration** signifies how many seconds of time period measured, and others signifies how many points exist per dimension. 
- - <code>sample_rate</code> represents how many samples per second.
+ <ul><code>entity </code> is size of the continuum. It contains 4 elements. They stands for **(duration, x_points, y_points, z_points)**. **duration** signifies how many seconds of time period measured, and others signifies how many points exist per dimension. </ul>
+ <ul> <code>sample_rate</code> represents how many samples per second.</ul>
  <h4> monotonicSpeaker(location, time_interval, amplitude, frequency, phase=1.5*pi)</h4>
     Creates a virtual oscillator that creates monotonic audio.
  <ul> <code>location</code>:Location of the speaker. It is a tuple with 3 elements</ul>
